@@ -112,4 +112,13 @@ body {
 
 .container {
   max-width: 1170px;
+  margin: 0px auto;
+}
+
+.header {
+  background: url(../img/header-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  padding: 35px 0px 50px 0px;
 }
