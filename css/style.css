@@ -121,4 +121,77 @@ body {
   background-position: top center;
   background-size: cover;
   padding: 35px 0px 50px 0px;
+  color: #fff;
+}
+
+.header .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.header__informer {
+  font-weight: 300;
+  font-size: 42px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.header__informer img {
+  margin: 0px 10px 0px 0px;
+}
+
+.header__text {
+  margin: 0px 0px 0px 20px;
+  width: 150px;
+  font-size: 14px;
+  font-weight: 400;
+  opacity: 0.7;
+  line-height: 20px;
+}
+
+.header__phone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  color: #fff;
+  font-family: "Panton";
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  letter-spacing: normal;
+}
+
+.header__phone span {
+  font-weight: bold;
+  margin: 0px 5px 0px 0px;
+}
+
+.header__call-button {
+  margin: 0px 0px 0px 30px;
+  border: 1px solid #fff;
+  border-radius: 1px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.72px;
+  padding: 20px 30px 20px 30px;
 }

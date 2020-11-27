@@ -128,20 +128,62 @@ $green: #729556;
    background-position: top center;
    background-size: cover;
    padding: 35px 0px 50px 0px;
+   color: $white;
+
+   & .wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      align-content: center;
+   }
 
    &__informer {
+      font-weight: 300;
+      font-size: 42px;
+      display: flex;
+      align-items: center;
+      align-content: center;
+      & img {
+         margin: 0px 10px 0px 0px;
+      }
    }
 
    &__text {
+      margin: 0px 0px 0px 20px;
+      width: 150px;
+      font-size: 14px;
+      font-weight: 400;
+      opacity: 0.7;
+      line-height: 20px;
    }
 
    &__logo {
    }
 
    &__phone {
+      display: flex;
+      align-items: center;
+      align-content: center;
+      color: $white;
+      font-family: "Panton";
+      font-size: 18px;
+      font-weight: normal;
+      font-style: normal;
+      letter-spacing: normal;
+      & span {
+         font-weight: bold;
+         margin: 0px 5px 0px 0px;
+      }
    }
 
    &__call-button {
+      margin: 0px 0px 0px 30px;
+      border: 1px solid $white;
+      border-radius: 1px;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.72px;
+      padding: 20px 30px 20px 30px;
    }
 
    &__nav {
