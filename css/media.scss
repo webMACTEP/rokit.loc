@@ -1,4 +1,4 @@
-@media (max-width: 1600px) {
+@media (max-width: 992px) {
    .container {
       width: 100%;
       margin: 0 auto;
@@ -11,7 +11,6 @@
       display: none;
    }
    .header__phone {
-      //flex-direction: column;
       width: 200px;
       flex-wrap: wrap;
       justify-content: center;
