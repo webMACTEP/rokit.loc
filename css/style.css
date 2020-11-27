@@ -230,3 +230,27 @@ body {
 .header__nav li:hover a {
   color: #fd2c34;
 }
+
+.header__slider {
+  font-family: "Panton";
+  font-size: 54px;
+  font-weight: Bold;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 64px;
+  max-width: 670px;
+  margin: 0px 0px 0px 80px;
+}
+
+.header__calc-button {
+  font-family: "Panton-ExtraBold";
+  font-size: 14px;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  background: #fd2c34;
+  width: 270px;
+  line-height: 20px;
+  text-align: center;
+  padding: 15px 0px 15px 0px;
+  margin: 70px 0px 80px 0px;
+}
