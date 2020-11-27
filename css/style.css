@@ -196,10 +196,6 @@ body {
   padding: 20px 30px 20px 30px;
 }
 
-.header__nav a {
-  color: #fff;
-}
-
 .header__nav ul {
   margin: 25px 0px 115px 0px;
   display: -webkit-box;
@@ -219,6 +215,14 @@ body {
   margin: 0px -1px 0px 0px;
 }
 
+.header__nav li a {
+  color: #fff;
+}
+
 .header__nav li:hover {
   border: 1px solid #fd2c34;
+}
+
+.header__nav li:hover a {
+  color: #fd2c34;
 }

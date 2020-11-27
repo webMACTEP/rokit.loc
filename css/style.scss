@@ -187,9 +187,6 @@ $green: #729556;
    }
 
    &__nav {
-      & a {
-         color: $white;
-      }
       & ul {
          margin: 25px 0px 115px 0px;
          display: flex;
@@ -202,8 +199,14 @@ $green: #729556;
          border: 1px solid rgba(255, 255, 255, 0.1);
          text-align: center;
          margin: 0px -1px 0px 0px;
+         & a {
+            color: $white;
+         }
          &:hover {
             border: 1px solid $red;
+            & a {
+               color: $red;
+            }
          }
       }
    }
