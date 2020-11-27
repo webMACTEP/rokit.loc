@@ -217,6 +217,10 @@ body {
 
 .header__nav li a {
   color: #fff;
+  font-size: 13px;
+  font-family: "Panton";
+  letter-spacing: 1.56px;
+  text-transform: uppercase;
 }
 
 .header__nav li:hover {
