@@ -1,0 +1,32 @@
+@media (max-width: 1600px) {
+   .container {
+      width: 95%;
+      margin: 0;
+   }
+   .header .wrapper {
+      flex-direction: column;
+   }
+   .header__nav {
+      display: none;
+   }
+   .header__phone {
+      //flex-direction: column;
+      width: 200px;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      margin: 30px 0px 0px 0px;
+   }
+   .header__call-button {
+      margin: 15px 0px 50px 0px;
+   }
+   .header__logo {
+      margin: 30px 0px 0px 0px;
+   }
+   .header__slider {
+      margin: 0px auto;
+      text-align: center;
+   }
+   .header__calc-button {
+      margin: 30px auto;
+   }
+}
