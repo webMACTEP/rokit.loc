@@ -127,10 +127,8 @@ body {
 
 .header a {
   color: #fff;
-}
-
-.header a:hover {
-  color: #fd2c34;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .header .wrapper {
@@ -203,10 +201,13 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.72px;
   padding: 20px 30px 20px 30px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .header__call-button:hover {
   border: 1px solid #fd2c34;
+  color: #fd2c34;
 }
 
 .header__nav ul {
@@ -225,6 +226,8 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.1);
   text-align: center;
   margin: 0px -1px 0px 0px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .header__nav li a {
@@ -244,6 +247,10 @@ body {
           justify-content: center;
   width: 100%;
   height: 65px;
+}
+
+.header__nav li a:hover {
+  color: #fd2c34;
 }
 
 .header__nav li:hover {
