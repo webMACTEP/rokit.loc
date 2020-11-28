@@ -1,8 +1,15 @@
 @media (max-width: 992px) {
-  .container {
-    width: 100%;
-    margin: 0;
-    padding: 0px 10px;
+  .advantages__item {
+    margin: 10px 0px 10px 0px;
+  }
+  .advantages .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .header .wrapper {
     -webkit-box-orient: vertical;
@@ -35,5 +42,9 @@
   }
   .header__calc-button {
     margin: 30px auto;
+  }
+  .container {
+    margin: 0;
+    padding: 0px 10px;
   }
 }

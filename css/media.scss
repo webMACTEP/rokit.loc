@@ -1,9 +1,12 @@
 @media (max-width: 992px) {
-   .container {
-      width: 100%;
-      margin: 0;
-      padding: 0px 10px;
+   .advantages__item {
+      margin: 10px 0px 10px 0px;
    }
+   .advantages .wrapper {
+      flex-direction: column;
+      align-items: center;
+   }
+
    .header .wrapper {
       flex-direction: column;
    }
@@ -29,5 +32,10 @@
    }
    .header__calc-button {
       margin: 30px auto;
+   }
+
+   .container {
+      margin: 0;
+      padding: 0px 10px;
    }
 }
