@@ -36,6 +36,9 @@
 body {
    font-family: "Roboto", sans-serif;
 }
+section {
+   position: relative;
+}
 
 $red: #fd2c34;
 $white: #fff;
@@ -118,9 +121,8 @@ $green: #729556;
 }
 
 .container {
-   max-width: 1170px;
+   max-width: 1210px;
    margin: 0px auto;
-   padding: 0px 10px;
 }
 
 .header {
@@ -253,5 +255,60 @@ $green: #729556;
       text-align: center;
       padding: 15px 0px 15px 0px;
       margin: 70px 0px 80px 0px;
+   }
+}
+.advantages {
+   background: $gray;
+   padding: 50px 0px 50px 0px;
+
+   & .wrapper {
+      display: flex;
+      justify-content: space-between;
+   }
+
+   &__item {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: url("../img/advantages-bg.svg");
+      background-repeat: no-repeat;
+      width: 380px;
+      height: 140px;
+      font-family: "Panton-SemiBold";
+      font-size: 15px;
+      line-height: 24px;
+      color: #768186;
+      padding: 0px 20px 0px 25px;
+      & span {
+         font-size: 54px;
+         &.s03 {
+            font-size: 24px;
+         }
+      }
+      & img {
+         position: absolute;
+         left: 0;
+         bottom: 0;
+         &.i01 {
+            left: 80px;
+         }
+         &.i03 {
+            bottom: 10px;
+         }
+      }
+   }
+
+   &__title {
+      display: flex;
+      align-items: center;
+      font-family: "Panton";
+      font-weight: bold;
+      font-size: 83px;
+      color: $red;
+      margin: 0px 20px 0px 0px;
+      &.b02 {
+         margin: 0px 20px 0px 40px;
+      }
    }
 }
