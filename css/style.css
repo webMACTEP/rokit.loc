@@ -113,6 +113,7 @@ body {
 .container {
   max-width: 1170px;
   margin: 0px auto;
+  padding: 0px 10px;
 }
 
 .header {
@@ -122,6 +123,14 @@ body {
   background-size: cover;
   padding: 35px 0px 50px 0px;
   color: #fff;
+}
+
+.header a {
+  color: #fff;
+}
+
+.header a:hover {
+  color: #fd2c34;
 }
 
 .header .wrapper {
@@ -196,6 +205,10 @@ body {
   padding: 20px 30px 20px 30px;
 }
 
+.header__call-button:hover {
+  border: 1px solid #fd2c34;
+}
+
 .header__nav ul {
   margin: 25px 0px 115px 0px;
   display: -webkit-box;
@@ -209,7 +222,6 @@ body {
 
 .header__nav li {
   width: 100%;
-  padding: 25px 0px 25px 0px;
   border: 1px solid rgba(255, 255, 255, 0.1);
   text-align: center;
   margin: 0px -1px 0px 0px;
@@ -221,14 +233,21 @@ body {
   font-family: "Panton";
   letter-spacing: 1.56px;
   text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 65px;
 }
 
 .header__nav li:hover {
   border: 1px solid #fd2c34;
-}
-
-.header__nav li:hover a {
-  color: #fd2c34;
 }
 
 .header__slider {

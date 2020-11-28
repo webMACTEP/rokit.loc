@@ -120,9 +120,17 @@ $green: #729556;
 .container {
    max-width: 1170px;
    margin: 0px auto;
+   padding: 0px 10px;
 }
 
 .header {
+   & a {
+      color: $white;
+      &:hover {
+         color: $red;
+      }
+   }
+
    background: url(../img/header-bg.jpg);
    background-repeat: no-repeat;
    background-position: top center;
@@ -184,6 +192,9 @@ $green: #729556;
       text-transform: uppercase;
       letter-spacing: 0.72px;
       padding: 20px 30px 20px 30px;
+      &:hover {
+         border: 1px solid $red;
+      }
    }
 
    &__nav {
@@ -195,7 +206,6 @@ $green: #729556;
       }
       & li {
          width: 100%;
-         padding: 25px 0px 25px 0px;
          border: 1px solid rgba(255, 255, 255, 0.1);
          text-align: center;
          margin: 0px -1px 0px 0px;
@@ -205,12 +215,14 @@ $green: #729556;
             font-family: "Panton";
             letter-spacing: 1.56px;
             text-transform: uppercase;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 65px;
          }
          &:hover {
             border: 1px solid $red;
-            & a {
-               color: $red;
-            }
          }
       }
    }
