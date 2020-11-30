@@ -54,6 +54,7 @@ $green: #729556;
    font-style: normal;
    letter-spacing: normal;
    line-height: 64px;
+   text-align: center;
    & span {
       color: $red;
    }
@@ -66,6 +67,8 @@ $green: #729556;
    font-style: normal;
    letter-spacing: normal;
    line-height: 64px;
+   text-align: center;
+
    & span {
       color: $red;
    }
@@ -78,6 +81,7 @@ $green: #729556;
    font-style: normal;
    letter-spacing: normal;
    line-height: 64px;
+   text-align: center;
    & span {
       color: $red;
    }
@@ -91,6 +95,8 @@ $green: #729556;
    font-style: normal;
    letter-spacing: normal;
    line-height: 64px;
+   text-align: center;
+
    & span {
       color: $red;
    }
@@ -103,6 +109,8 @@ $green: #729556;
    font-style: normal;
    letter-spacing: normal;
    line-height: 64px;
+   text-align: center;
+
    & span {
       color: $red;
    }
@@ -115,6 +123,8 @@ $green: #729556;
    font-style: normal;
    letter-spacing: normal;
    line-height: 64px;
+   text-align: center;
+
    & span {
       color: $red;
    }
@@ -258,7 +268,7 @@ $green: #729556;
    }
 }
 .advantages {
-   background: $gray;
+   //background: $gray;
    padding: 50px 0px 50px 0px;
 
    & .wrapper {
@@ -311,4 +321,66 @@ $green: #729556;
          margin: 0px 20px 0px 40px;
       }
    }
+}
+.health {
+   padding: 50px 0px 100px 0px;
+
+   &__title {
+      @include f50(#1d313a);
+   }
+
+   &__subtitle {
+      @include f34(#768186);
+   }
+   & .wrapper {
+      display: flex;
+      justify-content: space-between;
+      position: relative;
+      width: 100%;
+      margin: 50px 0px 0px 0px;
+   }
+
+   &__col-left {
+      width: 440px;
+      position: relative;
+   }
+
+   &__item {
+      font-family: "Panton";
+      line-height: 26px;
+      font-size: 17px;
+      font-weight: bold;
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid $gray;
+      padding: 30px 0px 0px 0px;
+      & p {
+         width: 283px;
+      }
+      & span {
+         font-weight: normal;
+         color: #768186;
+      }
+   }
+
+   &__col-right {
+      height: 510px;
+      width: 445px;
+      position: relative;
+      & .h-logo {
+         bottom: 120px;
+      }
+      & img {
+         position: absolute;
+         bottom: -50px;
+         right: 0;
+      }
+   }
+}
+.sections-bg {
+   background: $gray;
+
+   background-image: url("../img/healthBG.jpg");
+   background-repeat: no-repeat;
+   background-position: bottom right;
 }
