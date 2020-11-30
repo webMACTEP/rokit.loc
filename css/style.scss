@@ -410,3 +410,36 @@ $green: #729556;
       background-repeat: no-repeat;
    }
 }
+.technic {
+   padding: 95px 0px 0px 0px;
+   &__subtitle {
+      @include f34(#768186);
+   }
+
+   &__title {
+      @include f50(#1d313a);
+   }
+   & .wrapper {
+      display: flex;
+      margin: 55px 0px 0px 0px;
+   }
+   &__col {
+   }
+
+   &__item {
+      display: flex;
+      font-size: 16px;
+      color: #768186;
+      line-height: 24px;
+      border-bottom: 1px solid #eeeeee;
+
+      & p {
+         margin: 20px 0px 0px 0px;
+         width: 260px;
+      }
+      & span {
+         color: #1d313a;
+         font-weight: bold;
+      }
+   }
+}
