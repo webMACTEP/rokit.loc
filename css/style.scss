@@ -384,3 +384,28 @@ $green: #729556;
    background-repeat: no-repeat;
    background-position: bottom right;
 }
+.dop-functions {
+   & img {
+      height: 190px;
+      align-self: flex-end;
+   }
+   & p {
+      width: 823px;
+      font-family: "Panton";
+      font-size: 32px;
+      & span {
+         font-weight: bold;
+      }
+   }
+   & .wrapper {
+      padding: 0px 100px 0px 0px;
+      margin: -100px 0px 0px 0px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 1170px;
+      height: 200px;
+      background: url("../img/dop-functions-bg.png");
+      background-repeat: no-repeat;
+   }
+}

@@ -456,3 +456,37 @@ section {
   background-repeat: no-repeat;
   background-position: bottom right;
 }
+
+.dop-functions img {
+  height: 190px;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.dop-functions p {
+  width: 823px;
+  font-family: "Panton";
+  font-size: 32px;
+}
+
+.dop-functions p span {
+  font-weight: bold;
+}
+
+.dop-functions .wrapper {
+  padding: 0px 100px 0px 0px;
+  margin: -100px 0px 0px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 1170px;
+  height: 200px;
+  background: url("../img/dop-functions-bg.png");
+  background-repeat: no-repeat;
+}
