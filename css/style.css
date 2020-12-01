@@ -385,7 +385,7 @@ section {
   font-weight: normal;
   font-style: normal;
   letter-spacing: normal;
-  line-height: 64px;
+  line-height: 55px;
   text-align: center;
 }
 
@@ -503,7 +503,7 @@ section {
   font-weight: normal;
   font-style: normal;
   letter-spacing: normal;
-  line-height: 64px;
+  line-height: 55px;
   text-align: center;
 }
 
@@ -565,7 +565,7 @@ section {
   font-weight: normal;
   font-style: normal;
   letter-spacing: normal;
-  line-height: 64px;
+  line-height: 55px;
   text-align: center;
 }
 
@@ -822,6 +822,10 @@ section {
   padding: 0px 0px 60px 0px;
 }
 
+.consultation__row.form {
+  margin: 0px 0px 0px 0px;
+}
+
 .consultation__row.form p {
   width: 395px;
 }
@@ -917,4 +921,177 @@ section {
       -ms-flex-align: center;
           align-items: center;
   margin: 0px 0px 0px -20px;
+}
+
+.objects {
+  background-color: #f7f7f7;
+  padding: 80px 0px 100px 0px;
+}
+
+.objects__subtitle {
+  color: #768186;
+  font-family: "Panton";
+  font-size: 34px;
+  font-weight: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 55px;
+  text-align: center;
+}
+
+.objects__subtitle span {
+  color: #fd2c34;
+}
+
+.objects__title {
+  color: #1d313a;
+  font-family: "Panton";
+  font-size: 50px;
+  font-weight: Bold;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 64px;
+  text-align: center;
+}
+
+.objects__title span {
+  color: #fd2c34;
+}
+
+.objects__slider {
+  background-color: #fdfdfd;
+  margin: 50px 0px 0px 0px;
+  position: relative;
+}
+
+.objects__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 60px 40px 0px 40px;
+}
+
+.objects__card-col {
+  font-family: "Panton";
+  font-size: 18px;
+  line-height: 24px;
+  color: #768186;
+}
+
+.objects__card-col ul {
+  margin: 0px 35px 0px 0px;
+}
+
+.objects__card-col li {
+  margin: 10px 0px 0px 20px;
+  width: 167px;
+  list-style-type: square;
+  color: #fd2c34;
+}
+
+.objects__card-col li span {
+  font-weight: normal;
+  color: #768186;
+}
+
+.objects__card-col p {
+  margin: 0px 0px 25px 0px;
+}
+
+.objects__card-col span {
+  font-weight: bold;
+  color: #1d313a;
+  margin: 0px 0px 0px 5px;
+}
+
+.objects__card-title {
+  font-family: "Panton";
+  font-size: 30px;
+  font-weight: bold;
+  color: #1d313a;
+  margin: 0px 0px 17px 0px;
+}
+
+.objects__card-title span {
+  color: #fd2c34;
+}
+
+.objects__card-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 15px 0px 15px 0px;
+}
+
+.objects__card-row.top {
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.objects__card-row img {
+  margin: 0px 15px 0px 0px;
+}
+
+.objects__card-subtitle {
+  color: #1d313a;
+  font-weight: bold;
+  margin: 35px 0px 30px 0px;
+}
+
+.objects__card-price {
+  background-color: #f7f7f7;
+  width: 200px;
+  height: 200px;
+  padding: 40px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #768186;
+}
+
+.objects__card-price h2 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #1d313a;
+  line-height: 59px;
+}
+
+.objects__card-price span {
+  color: #1d313a;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.objects__card-num {
+  color: #fd2c34;
+  font-size: 18px;
+  font-weight: bold;
+  position: absolute;
+  left: 40px;
+  bottom: 40px;
+}
+
+.objects__card-num span {
+  font-size: 13px;
+  color: #181818;
+}
+
+.objects__prew {
+  position: absolute;
+  left: -70px;
+  top: 45%;
+}
+
+.objects__next {
+  position: absolute;
+  right: -70px;
+  top: 45%;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
 }

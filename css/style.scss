@@ -80,7 +80,7 @@ $green: #729556;
    font-weight: normal;
    font-style: normal;
    letter-spacing: normal;
-   line-height: 64px;
+   line-height: 55px;
    text-align: center;
    & span {
       color: $red;
@@ -631,6 +631,10 @@ $green: #729556;
       margin: 0px 0px 50px 0px;
       padding: 0px 0px 60px 0px;
 
+      &.form {
+         margin: 0px 0px 0px 0px;
+      }
+
       &.form p {
          width: 395px;
       }
@@ -719,5 +723,133 @@ $green: #729556;
       display: flex;
       align-items: center;
       margin: 0px 0px 0px -20px;
+   }
+}
+.objects {
+   background-color: #f7f7f7;
+   padding: 80px 0px 100px 0px;
+
+   &__subtitle {
+      @include f34(#768186);
+   }
+
+   &__title {
+      @include f50(#1d313a);
+   }
+
+   &__slider {
+      background-color: #fdfdfd;
+      margin: 50px 0px 0px 0px;
+      position: relative;
+   }
+
+   &__card {
+      display: flex;
+      justify-content: space-between;
+      padding: 60px 40px 0px 40px;
+   }
+
+   &__card-col {
+      font-family: "Panton";
+      font-size: 18px;
+      line-height: 24px;
+      color: #768186;
+      & ul {
+         margin: 0px 35px 0px 0px;
+      }
+      & li {
+         margin: 10px 0px 0px 20px;
+         width: 167px;
+         list-style-type: square;
+         color: $red;
+         & span {
+            font-weight: normal;
+            color: #768186;
+         }
+      }
+      & p {
+         margin: 0px 0px 25px 0px;
+      }
+      & span {
+         font-weight: bold;
+         color: #1d313a;
+         margin: 0px 0px 0px 5px;
+      }
+   }
+
+   &__card-title {
+      font-family: "Panton";
+      font-size: 30px;
+      font-weight: bold;
+      color: #1d313a;
+      margin: 0px 0px 17px 0px;
+      & span {
+         color: $red;
+      }
+   }
+
+   &__card-row {
+      display: flex;
+      align-items: center;
+      margin: 15px 0px 15px 0px;
+      &.top {
+         align-items: baseline;
+      }
+      & img {
+         margin: 0px 15px 0px 0px;
+      }
+   }
+
+   &__card-subtitle {
+      color: #1d313a;
+      font-weight: bold;
+      margin: 35px 0px 30px 0px;
+   }
+
+   &__card-price {
+      background-color: #f7f7f7;
+      width: 200px;
+      height: 200px;
+      padding: 40px;
+      font-size: 18px;
+      font-weight: 400;
+      color: #768186;
+      & h2 {
+         font-size: 50px;
+         font-weight: bold;
+         color: #1d313a;
+         line-height: 59px;
+      }
+      & span {
+         color: #1d313a;
+         font-size: 22px;
+         font-weight: 700;
+      }
+   }
+
+   &__card-num {
+      color: $red;
+      font-size: 18px;
+      font-weight: bold;
+      & span {
+         font-size: 13px;
+         color: #181818;
+      }
+      position: absolute;
+      left: 40px;
+      bottom: 40px;
+   }
+
+   &__prew {
+      position: absolute;
+      left: -70px;
+      top: 45%;
+   }
+
+   &__next {
+      position: absolute;
+      right: -70px;
+      top: 45%;
+      transform: rotate(180deg);
    }
 }
