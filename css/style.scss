@@ -603,3 +603,121 @@ $green: #729556;
       transform: rotate(180deg);
    }
 }
+.consultation {
+   padding: 60px 0px 0px 0px;
+
+   background: url("../img/consultation-bg.png"), #374952;
+   background-repeat: no-repeat;
+   background-blend-mode: multiply;
+   background-size: cover;
+   color: #768186;
+   font-size: 15px;
+   font-weight: 400;
+   line-height: 24px;
+
+   & p {
+      width: 240px;
+      & span {
+         font-weight: bold;
+      }
+   }
+
+   &__row {
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      margin: 0px 0px 50px 0px;
+      padding: 0px 0px 60px 0px;
+
+      &.form p {
+         width: 395px;
+      }
+
+      &.nline {
+         border: none;
+         padding: 0px 0px 0px 0px;
+         & h3 {
+            width: 100%;
+         }
+      }
+
+      &.sign {
+         padding: 0px 0px 0px 0px;
+      }
+      &.sign img {
+         margin: 0px 280px 0px 0px;
+      }
+      &.sign p {
+         position: absolute;
+         right: 80px;
+         bottom: 40px;
+         width: 165px;
+
+         & span {
+            color: $white;
+            font-family: "Panton";
+            font-size: 24px;
+            font-weight: bold;
+            line-height: 45px;
+         }
+      }
+   }
+
+   &__title {
+      margin: 0px 0px 0px 70px;
+      width: 650px;
+      color: $white;
+      font-family: "Panton-SemiBold";
+      font-size: 54px;
+      font-weight: normal;
+      font-style: normal;
+      letter-spacing: normal;
+      line-height: 68px;
+
+      & span {
+         color: $green;
+      }
+   }
+   & h3 {
+      font-size: 24px;
+      color: $white;
+      font-weight: 700;
+      padding: 0px 0px 0px 70px;
+      width: 170px;
+      line-height: 32px;
+      margin: 0px 80px 0px 0px;
+
+      &::before {
+         content: "";
+         background-color: #ffffff;
+         width: 46px;
+         height: 1px;
+         position: absolute;
+         left: 0;
+         margin: 12px 0px 0px 0px;
+         //top: 12px;
+      }
+   }
+   & input {
+      height: 54px;
+      padding: 0px 20px 0px 20px;
+      width: 237px;
+   }
+   &__button {
+      background: $red;
+      color: $white;
+      text-transform: uppercase;
+      font-family: "Panton";
+      font-weight: bold;
+      font-size: 14px;
+      letter-spacing: 1.4px;
+      //padding: 20px;
+      height: 54px;
+      padding: 0px 20px 0px 20px;
+      display: flex;
+      align-items: center;
+      margin: 0px 0px 0px -20px;
+   }
+}
