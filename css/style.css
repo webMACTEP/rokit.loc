@@ -1239,3 +1239,30 @@ section {
 .age__row img {
   margin: 0px 25px 0px 0px;
 }
+
+.video {
+  background: url(../img/header-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  padding: 170px 0px 170px 0px;
+}
+
+.video__button {
+  width: 90px;
+  margin: 0px auto 0px auto;
+}
+
+.video__title {
+  text-align: center;
+  margin: 50px 0px 0px 0px;
+}
+
+.video a {
+  font-family: "Panton";
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: bold;
+  text-decoration: underline;
+  line-height: 40px;
+}
