@@ -853,3 +853,62 @@ $green: #729556;
       transform: rotate(180deg);
    }
 }
+.certificates {
+   padding: 90px 0px 0px 0px;
+
+   &__title {
+      @include f50(#1d313a);
+      max-width: 955px;
+      margin: 0px auto;
+   }
+
+   &__subtitle {
+      color: #768186;
+      font-family: "Panton";
+      font-size: 17px;
+      text-align: center;
+      margin: 50px 0px 35px 0px;
+   }
+
+   &__row {
+      display: flex;
+      justify-content: center;
+      &.line {
+         padding: 0px 0px 90px 0px;
+         border-bottom: 1px solid rgba(4, 4, 4, 0.1);
+      }
+   }
+
+   &__button {
+      font-family: "Panton";
+      font-size: 12px;
+      text-transform: uppercase;
+      font-weight: bold;
+      color: #768186;
+      letter-spacing: 0.72px;
+      border-radius: 1px;
+      border: 1px solid #768186;
+      padding: 20px 30px;
+      margin: 0px -1px 40px 0px;
+      &.active {
+         color: #ffffff;
+         background-color: #374952;
+      }
+   }
+
+   &__item {
+      text-align: center;
+      color: #768186;
+      font-family: "Panton";
+      font-size: 16px;
+      & p {
+         margin: 10px 0px 0px 0px;
+      }
+      & span {
+         color: #1d313a;
+         font-size: 18px;
+         font-weight: bold;
+         line-height: 35px;
+      }
+   }
+}
