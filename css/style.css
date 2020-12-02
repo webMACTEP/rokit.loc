@@ -645,7 +645,7 @@ section {
 
 .speed__col-r img.map {
   left: 310px;
-  bottom: 100px;
+  bottom: 0px;
 }
 
 .selection {
