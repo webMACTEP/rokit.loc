@@ -1,4 +1,5 @@
 @import "_nullstyle";
+
 @font-face {
    font-family: "Panton";
    src: url("../fonts/Panton-Bold.eot");
@@ -31,6 +32,15 @@
    font-weight: normal;
    font-style: normal;
 }
+@font-face {
+   font-family: "Panton-Thin";
+   src: url("../fonts/Panton-Thin.eot");
+   src: local("☺"), url("../fonts/Panton-Thin.woff") format("woff"), url("../fonts/Panton-Thin.ttf") format("truetype"),
+      url("../fonts/Panton-Thin.svg") format("svg");
+   font-weight: normal;
+   font-style: normal;
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
 
 body {
@@ -1014,5 +1024,139 @@ $green: #729556;
 
    &__row {
       display: flex;
+   }
+}
+.footer {
+   background-color: #253036;
+   padding: 70px 0px 70px 0px;
+
+   & h1 {
+      font-family: "Panton-Thin";
+      font-size: 30px;
+      text-transform: uppercase;
+      color: rgba(255, 255, 255, 0.1);
+      letter-spacing: 3px;
+      line-height: 50px;
+   }
+   & h2 {
+      font-family: "Panton";
+      color: rgba(255, 255, 255, 0.1);
+      font-size: 15px;
+      text-transform: uppercase;
+      font-weight: bold;
+      letter-spacing: 1.5px;
+   }
+   & h3 a {
+      font-family: "Panton";
+      font-size: 15px;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      color: rgba(255, 255, 255, 0.5);
+      //text-decoration: underline;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+      line-height: 40px;
+   }
+   & ul {
+      margin: 20px 0px 0px 0px;
+   }
+   & li a {
+      font-family: "Panton";
+      color: rgba(255, 255, 255, 0.5);
+      font-size: 14px;
+      line-height: 40px;
+      margin: 0px 40px 0px 0px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+   }
+   & .wrapper {
+      display: flex;
+   }
+   &__column {
+      // width: 100%;
+      display: flex;
+      flex-direction: column;
+   }
+
+   &__subcolumn {
+      margin: 30px 0px 0px 0px;
+      &.last {
+         margin: 50px 0px 0px 0px;
+      }
+   }
+
+   &__row {
+      display: flex;
+      justify-content: space-between;
+      &.bottom {
+         margin: 90px 0px 0px 0px;
+         align-items: center;
+      }
+   }
+
+   &__logo {
+   }
+
+   &__tel a {
+      font-family: "Panton";
+      color: $white;
+      font-size: 18px;
+      & span {
+         font-weight: bold;
+      }
+   }
+
+   &__call-button {
+      font-family: "Panton";
+      text-transform: uppercase;
+      font-size: 12px;
+      letter-spacing: 1.2px;
+      font-weight: bold;
+      color: $white;
+      border: 1px solid $white;
+      border-radius: 1px;
+      padding: 20px 40px 20px 40px;
+   }
+
+   &__sign a {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+      color: rgba(255, 255, 255, 0.5);
+      font-family: "Panton";
+      font-size: 13px;
+   }
+
+   &__dev {
+      position: relative;
+      font-family: "Panton";
+      font-size: 10px;
+      color: rgba(255, 255, 255, 0.5);
+      letter-spacing: 2px;
+      display: flex;
+      align-items: center;
+      padding: 7px 10px 7px 14px;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-right: none;
+      margin: 0px 0px 15px 0px;
+      &::after {
+         content: "";
+         width: 1px;
+         height: 21px;
+         background: rgba(255, 255, 255, 0.1);
+         position: absolute;
+         right: -8px;
+         top: -3px;
+         transform: rotate(-45deg);
+      }
+      &::before {
+         content: "";
+         width: 1px;
+         height: 21px;
+         background: rgba(255, 255, 255, 0.1);
+         position: absolute;
+         right: -8px;
+         top: 12px;
+         transform: rotate(45deg);
+      }
+      & img {
+         margin: 0px 14px 0px 0px;
+      }
    }
 }
