@@ -1246,6 +1246,7 @@ section {
   background-position: top center;
   background-size: cover;
   padding: 170px 0px 170px 0px;
+  margin: 0px 0px 100px 0px;
 }
 
 .video__button {
