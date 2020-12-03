@@ -1515,6 +1515,34 @@ section {
 /* Элемент точки */
 .header__slider {
   position: relative;
+  /* Точки (булиты) */
+  /* Активная точка */
+  /* Элемент точки */
+}
+
+.header__slider .slick-dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header__slider .slick-dots li.slick-active button {
+  background: #fd2c34;
+}
+
+.header__slider .slick-dots li button {
+  font-size: 0;
+  width: 10px;
+  height: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 0px 17px 0px 17px;
+  border-radius: 50%;
 }
 
 .header__slider .slick-arrow.slick-prev {
