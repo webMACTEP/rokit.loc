@@ -1590,3 +1590,66 @@ section {
   width: 43px;
   height: 43px;
 }
+
+.objects__slider {
+  position: relative;
+  /* Активная точка */
+  /* Элемент точки */
+}
+
+.objects__slider .slick-dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.objects__slider .slick-dots li.slick-active button {
+  color: #fd2c34;
+  font-size: 18px;
+  font-weight: bold;
+  background: none;
+  position: absolute;
+  left: 40px;
+  bottom: 40px;
+}
+
+.objects__slider .slick-dots li.slick-active button span {
+  font-size: 13px;
+  color: #181818;
+}
+
+.objects__slider .slick-dots li.slick-active button::before {
+  content: "0";
+}
+
+.objects__slider .slick-dots li.slick-active button::after {
+  content: "/ 04";
+  font-size: 13px;
+  color: #181818;
+  margin: 0px 0px 0px 7px;
+}
+
+.objects__slider .slick-dots li button {
+  font-size: 0;
+}
+
+.objects__slider .slick-arrow.slick-prev {
+  left: -80px;
+  background: url("../img/objects-arrow.png") 0 0 no-repeat;
+}
+
+.objects__slider .slick-arrow.slick-next {
+  right: -80px;
+  background: url("../img/objects-arrow.png") 0 0 no-repeat;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.objects__slider .slick-arrow {
+  position: absolute;
+  top: 40%;
+  z-index: 10;
+  font-size: 0;
+  width: 43px;
+  height: 43px;
+}
