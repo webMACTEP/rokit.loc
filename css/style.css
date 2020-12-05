@@ -261,12 +261,8 @@ section {
   height: 65px;
 }
 
-.header__nav li a:hover {
-  color: #fd2c34;
-}
-
 .header__nav li:hover {
-  border: 1px solid #fd2c34;
+  background: #fd2c34;
 }
 
 .header__slider {
