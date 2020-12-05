@@ -1,18 +1,21 @@
 @media (max-width: 1400px) {
+   .footer__dev {
+      margin: 0px 20px 15px 0px;
+   }
    .technic__col.center {
       margin: 0px -10px;
    }
    .objects__slider .slick-arrow.slick-prev {
-      left: 0px;
+      left: -10px;
    }
    .objects__slider .slick-arrow.slick-next {
-      right: 0px;
+      right: -10px;
    }
    .header__slider .slick-arrow.slick-next {
-      right: -60px;
+      right: -80px;
    }
    .header__slider .slick-arrow.slick-prev {
-      left: -60px;
+      left: -80px;
    }
    .container {
       width: 98%;
