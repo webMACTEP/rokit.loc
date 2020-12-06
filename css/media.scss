@@ -328,7 +328,15 @@
    }
    .health__col-right img {
       right: 30px;
-      max-width: 390px;
+      max-width: 340px;
+   }
+   .certificates__row {
+      flex-direction: column;
+      text-align: center;
+   }
+   .objects__slider .slick-dots li.slick-active button {
+      left: 50%;
+      margin-left: -20px;
    }
    .selection__slide-col {
       position: absolute;
@@ -340,10 +348,19 @@
          width: 220px;
       }
    }
-
+   .footer__subcolumn {
+      margin: 30px 0px 0px 20px;
+   }
+   .header__call-button {
+      margin: 20px 0px 0px 0px;
+   }
+   .header__phone {
+      flex-direction: column;
+   }
    .header__slider {
       font-size: 30px;
       line-height: 50px;
+      margin: 50px 10px 0px 10px;
    }
    .speed__col-l {
       padding: 0px 0px 0px 30px;
