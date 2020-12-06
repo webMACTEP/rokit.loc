@@ -372,6 +372,8 @@
   }
   .selection__slider {
     height: 527px;
+    width: 410px;
+    margin-left: -205px;
   }
   .selection__slide-title {
     text-align: center;
