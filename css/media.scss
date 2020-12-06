@@ -197,6 +197,92 @@
    }
 }
 @media (max-width: 768px) {
+   .map__contacts {
+      left: 10px;
+   }
+   .speed__item {
+      margin: 30px 0px 35px 0px;
+   }
+   .health__col-right img {
+      right: -40px;
+   }
+   .technic .wrapper {
+      flex-direction: column;
+   }
+   .health .wrapper {
+      flex-direction: column;
+   }
+   .consultation__row.sign {
+      height: 100%;
+   }
+   .consultation h3::before {
+      display: none;
+   }
+   .consultation p {
+      margin: 0px 0px 25px 10px;
+   }
+   .consultation__row.sign img {
+      margin: 0px 0px 0px 0px;
+   }
+   .consultation__title {
+      margin: 0;
+      width: 100%;
+   }
+   .consultation__row {
+      flex-direction: column;
+      text-align: center;
+   }
+   .age__row p.short {
+      margin: 0;
+   }
+   .age__row img {
+      margin: 20px 0px 0px 0px;
+   }
+   .age__row {
+      flex-direction: column;
+      text-align: center;
+   }
+   .selection__responsibility {
+      top: 510px;
+   }
+   .selection__slider {
+      margin-left: -280px;
+   }
+   .selection__slider {
+      top: 950px;
+      width: 560px;
+   }
+   .selection__slide-persone {
+      margin: -33px 21px 0px 0px;
+   }
+   .selection__slider-item {
+      padding: 25px 25px 0px 25px;
+   }
+
+   .consultation__row.sign {
+      // height: 680px;
+      flex-wrap: wrap;
+   }
+   .consultation__row.sign {
+      flex-wrap: wrap;
+   }
+   .speed__col-r img {
+      left: 5px;
+   }
+   .speed__col-r img.map {
+      left: 247px;
+   }
+   .technic__item img {
+      width: 30%;
+      height: 30%;
+   }
+   .dop-functions p {
+      font-size: 18px;
+      line-height: 32px;
+   }
+   .dop-functions .wrapper {
+      width: 100%;
+   }
 }
 @media (max-width: 576px) {
 }
