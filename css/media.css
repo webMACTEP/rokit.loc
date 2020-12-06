@@ -321,3 +321,76 @@
     width: 100%;
   }
 }
+
+@media (max-width: 576px) {
+  .objects__card {
+    padding: 60px 15px 0px 15px;
+  }
+  .objects__slider .slick-arrow {
+    top: 17%;
+  }
+  .objects__card-col ul {
+    margin: 0px 5px 0px 0px;
+    font-size: 14px;
+  }
+  .objects__card,
+  .objects__card-col {
+    width: 100%;
+  }
+  .objects__slider {
+    width: 100%;
+  }
+  .objects__slider img {
+    max-width: 350px;
+  }
+  .dop-functions .wrapper {
+    padding: 0px 50px 0px 0px;
+  }
+  .dop-functions p {
+    margin: 0px 0px 0px 20px;
+    font-size: 15px;
+    line-height: 24px;
+  }
+  .dop-functions img {
+    height: 150px;
+  }
+  .health__col-left {
+    width: 100%;
+  }
+  .health__item p {
+    width: 100%;
+  }
+  .health__col-right {
+    width: 100%;
+  }
+  .health__col-right img {
+    right: 30px;
+    max-width: 390px;
+  }
+  .selection__slide-stars {
+    margin: -192px -300px 0px 0px;
+  }
+  .selection__slider {
+    height: 527px;
+  }
+  .selection__slide-title {
+    text-align: center;
+  }
+  .selection__slide-col {
+    width: 100%;
+  }
+  .selection__slide-content {
+    padding: 0px 20px 0px 20px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  .speed__col-r img.map {
+    left: 95px;
+  }
+}
