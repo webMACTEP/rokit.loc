@@ -304,7 +304,20 @@
    }
    .objects__slider img {
       // margin: 0px 0px 0px 30px;
-      max-width: 350px;
+      max-width: 75%;
+      max-height: 75%;
+   }
+   .consultation__row.sign img {
+      margin: 0px 75px 0px 0px;
+   }
+   .age__row img {
+      margin: 20px 0px 10px 0px;
+   }
+   .certificates__item {
+      margin: 25px 0px 25px 0px;
+   }
+   .certificates__button {
+      margin: 0px 0px -1px 0px;
    }
    .dop-functions .wrapper {
       padding: 0px 50px 0px 0px;
@@ -328,8 +341,8 @@
    }
    .health__col-right img {
       right: 30px;
-      max-width: 50%;
-      max-height: 50%;
+      max-width: 80%;
+      //max-height: 50%;
    }
    .certificates__row {
       flex-direction: column;
