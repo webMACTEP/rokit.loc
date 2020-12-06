@@ -341,8 +341,8 @@
     width: 100%;
   }
   .objects__slider img {
-    max-width: 75%;
-    max-height: 75%;
+    max-width: 400px;
+    max-height: 400px;
   }
   .consultation__row.sign img {
     margin: 0px 75px 0px 0px;
