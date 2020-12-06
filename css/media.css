@@ -365,7 +365,8 @@
   }
   .health__col-right img {
     right: 30px;
-    max-width: 340px;
+    max-width: 50%;
+    max-height: 50%;
   }
   .certificates__row {
     -webkit-box-orient: vertical;
@@ -383,7 +384,7 @@
     text-align: left;
   }
   .selection__slide-col.right {
-    margin: 30px 0px 0px 120px;
+    margin: 10px 0px 0px 120px;
     width: 220px;
   }
   .footer__subcolumn {
