@@ -366,7 +366,7 @@
       padding: 0px 0px 0px 30px;
    }
    .selection {
-      padding: 140px 0px 750px 0px;
+      padding: 140px 0px 800px 0px;
    }
    .selection__responsibility {
       top: 620px;
@@ -404,6 +404,12 @@
    }
    .speed__col-r img.map {
       left: 95px;
+   }
+   .header__slider .slick-arrow.slick-prev {
+      left: 0;
+   }
+   .header__slider .slick-arrow.slick-next {
+      right: 0;
    }
 }
 @media (max-width: 413px) {
