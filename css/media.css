@@ -475,3 +475,78 @@
     right: 0;
   }
 }
+
+@media (max-width: 413px) {
+  .selection__responsibility {
+    top: 500px;
+  }
+  .objects__card-col li {
+    width: 140px;
+    margin: 10px 0px 0px 10px;
+  }
+  .objects__slider img {
+    max-width: 300px;
+  }
+  .map__contacts {
+    padding: 10px;
+    left: 5px;
+  }
+  .selection__slider {
+    top: 930px;
+    margin-left: -154px;
+    width: 310px;
+  }
+  .selection__slide-stars {
+    margin: -192px -220px 0px 0px;
+  }
+  .selection__slide-col.right {
+    width: 134px;
+  }
+  .advantages__title.b02 {
+    margin: 0px 15px 0px 10px;
+  }
+  .advantages .wrapper .advantages__item {
+    margin: 20px 0px 0px 0px;
+  }
+  .advantages__item {
+    width: 320px;
+  }
+  .health__item img {
+    width: 25%;
+    height: 25%;
+  }
+  .dop-functions img {
+    margin: 0px 0px 0px -50px;
+  }
+  .speed__item img {
+    width: 25%;
+    height: 25%;
+  }
+  .speed__col-r img.map {
+    left: 0;
+  }
+  .speed__col-r img {
+    max-width: 300px;
+  }
+  .consultation__row.form p {
+    width: 100%;
+  }
+  .health__title,
+  .objects__title,
+  .speed__title,
+  .certificates__title,
+  .selection__title,
+  .consultation__title,
+  .technic__title {
+    font-size: 36px;
+    line-height: 45px;
+  }
+  .technic__subtitle,
+  .age__subtitle,
+  .age__title,
+  .objects__subtitle,
+  .speed__subtitle {
+    font-size: 25px;
+    line-height: 35px;
+  }
+}
