@@ -1,3 +1,6 @@
+.header__burger-bg {
+   display: none;
+}
 @media (max-width: 1400px) {
    .footer__dev {
       margin: 0px 20px 15px 0px;
@@ -64,7 +67,11 @@
       background-position: top right;
    }
 }
+
 @media (max-width: 992px) {
+   .header__burger-bg {
+      display: block;
+   }
    .objects__slider .slick-dots li.slick-active button {
       bottom: -32px;
    }
@@ -428,6 +435,9 @@
    }
 }
 @media (max-width: 413px) {
+   .header .wrapper {
+      margin: 20px 0px 0px 0px;
+   }
    .selection__responsibility {
       top: 500px;
    }
@@ -500,5 +510,87 @@
    .speed__subtitle {
       font-size: 25px;
       line-height: 35px;
+   }
+}
+
+body.lock {
+   overflow: hidden;
+}
+.header__menu {
+   z-index: 11;
+   position: fixed;
+   top: 0;
+   left: -100%;
+   width: 70%;
+   height: 100%;
+   overflow: auto;
+   background-color: #729556;
+   padding: 45px 10px 0 10px;
+   transition: all 0.3s ease 0s;
+
+   &.active {
+      left: 0;
+   }
+   & li {
+      padding: 20px 0px 20px 20px;
+      text-transform: uppercase;
+   }
+}
+
+.header__burger {
+   display: block;
+   position: fixed;
+   top: 15px;
+   right: 10px;
+   width: 30px;
+   height: 20px;
+   z-index: 31;
+
+   &-bg {
+      border-radius: 2px;
+      z-index: 30;
+      position: fixed;
+      top: 5px;
+      right: 5px;
+      height: 40px;
+      width: 40px;
+      background: #24323c;
+   }
+
+   & span {
+      position: absolute;
+      background-color: #fff;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      top: 9px;
+      transition: all 0.3s ease 0s;
+   }
+   &::before,
+   &::after {
+      content: "";
+      background-color: #fff;
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      left: 0;
+      transition: all 0.3s ease 0s;
+   }
+   &::before {
+      top: 0;
+   }
+   &::after {
+      bottom: 0;
+   }
+   &.active:before {
+      transform: rotate(45deg);
+      top: 9px;
+   }
+   &.active:after {
+      transform: rotate(-45deg);
+      bottom: 9px;
+   }
+   &.active span {
+      transform: scale(0);
    }
 }

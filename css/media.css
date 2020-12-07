@@ -1,3 +1,7 @@
+.header__burger-bg {
+  display: none;
+}
+
 @media (max-width: 1400px) {
   .footer__dev {
     margin: 0px 20px 15px 0px;
@@ -75,6 +79,9 @@
 }
 
 @media (max-width: 992px) {
+  .header__burger-bg {
+    display: block;
+  }
   .objects__slider .slick-dots li.slick-active button {
     bottom: -32px;
   }
@@ -477,6 +484,9 @@
 }
 
 @media (max-width: 413px) {
+  .header .wrapper {
+    margin: 20px 0px 0px 0px;
+  }
   .selection__responsibility {
     top: 500px;
   }
@@ -549,4 +559,99 @@
     font-size: 25px;
     line-height: 35px;
   }
+}
+
+body.lock {
+  overflow: hidden;
+}
+
+.header__menu {
+  z-index: 11;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  width: 70%;
+  height: 100%;
+  overflow: auto;
+  background-color: #729556;
+  padding: 45px 10px 0 10px;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.header__menu.active {
+  left: 0;
+}
+
+.header__menu li {
+  padding: 20px 0px 20px 20px;
+  text-transform: uppercase;
+}
+
+.header__burger {
+  display: block;
+  position: fixed;
+  top: 15px;
+  right: 10px;
+  width: 30px;
+  height: 20px;
+  z-index: 31;
+}
+
+.header__burger-bg {
+  border-radius: 2px;
+  z-index: 30;
+  position: fixed;
+  top: 5px;
+  right: 5px;
+  height: 40px;
+  width: 40px;
+  background: #24323c;
+}
+
+.header__burger span {
+  position: absolute;
+  background-color: #fff;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  top: 9px;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.header__burger::before, .header__burger::after {
+  content: "";
+  background-color: #fff;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  left: 0;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.header__burger::before {
+  top: 0;
+}
+
+.header__burger::after {
+  bottom: 0;
+}
+
+.header__burger.active:before {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  top: 9px;
+}
+
+.header__burger.active:after {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  bottom: 9px;
+}
+
+.header__burger.active span {
+  -webkit-transform: scale(0);
+          transform: scale(0);
 }
