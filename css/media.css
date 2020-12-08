@@ -10,10 +10,10 @@
     margin: 0px -10px;
   }
   .objects__slider .slick-arrow.slick-prev {
-    left: -10px;
+    left: 10px;
   }
   .objects__slider .slick-arrow.slick-next {
-    right: -10px;
+    right: 10px;
   }
   .header__slider .slick-arrow.slick-next {
     right: -80px;
@@ -104,12 +104,6 @@
   .technic .wrapper {
     padding-bottom: 100px;
   }
-  .objects__slider .slick-arrow.slick-prev {
-    left: 0;
-  }
-  .objects__slider .slick-arrow.slick-next {
-    right: 0;
-  }
   .age__row p {
     max-width: 275px;
   }
@@ -189,7 +183,7 @@
             flex-direction: column;
   }
   .selection {
-    padding: 140px 0px 800px 0px;
+    padding: 140px 0px 870px 0px;
   }
   .selection__slider {
     position: absolute;
@@ -352,7 +346,7 @@
     max-height: 400px;
   }
   .consultation__row.sign img {
-    margin: 0px 75px 0px 0px;
+    margin: 0px 0px 0px -180px;
   }
   .age__row img {
     margin: 20px 0px 10px 0px;
@@ -442,8 +436,13 @@
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .selection__slide-content {
+    position: relative;
+  }
   .selection__slide-stars {
-    margin: -192px -340px 0px 0px;
+    position: absolute;
+    top: 30px;
+    right: 0;
   }
   .selection__slider {
     top: 1030px;
@@ -452,7 +451,8 @@
     margin-left: -205px;
   }
   .selection__slide-title {
-    text-align: center;
+    text-align: left;
+    margin: 0px 0px 0px 20px;
   }
   .selection__slide-col {
     color: #fff;
@@ -498,16 +498,13 @@
     max-width: 300px;
   }
   .map__contacts {
-    padding: 10px;
+    padding: 40px 10px;
     left: 5px;
   }
   .selection__slider {
     top: 930px;
     margin-left: -154px;
     width: 310px;
-  }
-  .selection__slide-stars {
-    margin: -192px -220px 0px 0px;
   }
   .selection__slide-col.right {
     width: 134px;
